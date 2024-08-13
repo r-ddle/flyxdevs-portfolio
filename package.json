@@ -3,5 +3,8 @@
     "@preline/tabs": "^2.4.1",
     "framer-motion": "^11.3.24",
     "lucide-react": "^0.427.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
