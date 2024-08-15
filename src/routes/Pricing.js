@@ -8,10 +8,10 @@ const Pricing = () => {
             paragraph="Grab an amazing deal right now!"
             />
             <section className='w-full bg-three h-fit py-16'>
-                <div className="h-fit bg-nine-100 shadow-md text-one max-w-[66rem] p-4 w-full mx-auto rounded-xl bg-opacity-80 backdrop-filter backdrop-blur-lg my-[50px]">
+                <div className="h-fit shadow-md text-one max-w-[50rem] p-4 w-full mx-auto rounded-3xl bg-opacity-80 backdrop-filter backdrop-blur-lg my-[50px]">
 
                     {/* Web Design Card */}
-                    <div className="bg-nine-100 border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mb-5">
+                    <div className="bg-nine-100 border rounded-3xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mb-5">
                         <div className="py-[100px] px-[50px] flex flex-col">
                             <h1 className='text-3xl text-center'>Starting at</h1>
                             <h3 className='text-xl font-extrabold text-center text-five-500'>Rs. 30,000/=</h3>
@@ -36,7 +36,7 @@ const Pricing = () => {
                                             </svg>
                                             </span>
                                             <span className="text-gray-600 dark:text-white text-xl">
-                                            Responsive Web Design based on your likings
+                                            Responsive Web Design
                                             </span>
                                         </li>
                                         <li className="flex gap-x-3 mb-10">
@@ -67,7 +67,7 @@ const Pricing = () => {
                     {/* End Design */}
 
                     {/* Website Card */}
-                    <div className="bg-nine-100 border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mb-5">
+                    <div className="bg-nine-100 border rounded-3xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mb-5">
                         <div className="py-[180px] px-[50px] flex flex-col">
                             <h1 className='text-3xl text-center'>Starting at</h1>
                             <h3 className='text-xl font-extrabold text-center text-five-500'>Rs. 100,000/=</h3>
@@ -143,10 +143,10 @@ const Pricing = () => {
                     {/* End Website */}
 
                     {/* Software Card */}
-                    <div className="bg-nine-100 border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 mb-5">
+                    <div className="bg-nine-100 border rounded-3xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
                         <div className="py-[180px] px-[50px] flex flex-col">
                             <h1 className='text-3xl text-center'>Starting at</h1>
-                            <h3 className='text-xl font-extrabold text-center text-five-500'>Rs. 100,000/=</h3>
+                            <h3 className='text-xl font-extrabold text-center text-five-500'>Rs. 150,000/=</h3>
                             <hr className='mt-2 w-[200px]'></hr>
                             <button className="mt-5 bg-one text-nine-100 font-bold py-2 px-4 rounded-full">
                             Contact Us for a Quote.
