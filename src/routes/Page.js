@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './Navbar';
 import About from './About';
@@ -6,12 +6,17 @@ import Footer from './Footer';
 import Pricing from './Pricing';
 import Portfolio from './Portfolio';
 import Solutions from './Solutions';
+import Contact from './Contact'
 import { motion as m, AnimatePresence } from 'framer-motion';
 
 console.log('%c Gojo is Gay', 'font-size: 200px; color: red');
 
 function Page() {
   const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [location])
+
 
   return (
     <m.div
@@ -71,6 +76,19 @@ function Page() {
                 transition={{ duration: 0.5 }}
               >
                 <Solutions />
+              </m.div>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <m.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -50 }}
+                transition={{ duration: 0.5 }}
+              >
+                <Contact />
               </m.div>
             }
           />

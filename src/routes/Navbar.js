@@ -83,7 +83,7 @@ const Navbar = () => {
                 Portfolio
             </Link>
 
-            <Link className="text-sm text-one hover:text-nine md:py-4 focus:outline-none focus:text-nine" to="/solutions">
+            <Link className="disabled:opacity-50 text-sm text-one hover:text-nine md:py-4 focus:outline-none focus:text-nine" to="/">
                 Solutions
             </Link>
 
