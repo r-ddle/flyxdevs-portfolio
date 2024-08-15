@@ -10,7 +10,7 @@ const Tabs = () => {
   return (
     // About Container
     <section id="about" className="mb-10">
-        <div className={`${activeTab === 'approach-panel' ? 'h-[460px]' : 'h-[360px]'} bg-nine-100 shadow-md text-one max-w-[66rem] p-4 w-full mx-auto rounded-xl bg-opacity-80 backdrop-filter backdrop-blur-lg`}>
+        <div className={`${activeTab === 'approach-panel' ? 'h-[460px]' : 'h-[360px]'} bg-[linear-gradient(180.55deg,#565656_0%,#181818_100%)] shadow-md text-one max-w-[66rem] p-4 w-full mx-auto rounded-xl bg-opacity-80 backdrop-filter backdrop-blur-lg`}>
 
         {/* Tab Switcher */}
         <div className='px-4'>

@@ -1,6 +1,6 @@
 import { motion as m } from 'framer-motion';
 import ProjectCards from './ProjectCards';
-import { Calendar } from 'lucide-react';
+// import { Calendar } from 'lucide-react';
 
 const Portfolio = () => {
     const megaprojects = [
@@ -52,7 +52,7 @@ const Portfolio = () => {
                 <div className='h-fit shadow-md text-one max-w-[66rem] p-4 w-full mx-auto rounded-3xl bg-opacity-80 backdrop-filter backdrop-blur-lg my-[50px]'>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                             {moreProjects.map((project, index) => (
-                                <div key={index} className="group flex flex-col bg-nine border border-gray-700 rounded-xl hover:bg-gray-700 transition-all duration-300">
+                                <div key={index} className="group flex flex-col bg-nine rounded-xl bg-[linear-gradient(220.55deg,#565656_0%,#181818_100%)] hover:shadow-2xl hover:shadow-six transition-all duration-300">
                                     <div className="p-4 md:p-5">
                                         <div className="flex justify-between items-center">
                                             <div className="mt-1 text-gray-400">
