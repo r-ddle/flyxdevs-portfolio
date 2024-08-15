@@ -1,0 +1,255 @@
+/*
+         * HSAccordion
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSBasePlugin
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSCarousel
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSCollapse
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSComboBox
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSCopyMarkup
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSDataTable
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSDropdown
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSFileUpload
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSInputNumber
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSOverlay
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSPinInput
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSRemoveElement
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSScrollspy
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSSelect
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSStaticMethods
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSStepper
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSStrongPassword
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSTabs
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSToggleCount
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSTogglePassword
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/*
+         * HSTooltip
+         * @version: 2.4.1
+         * @author: Preline Labs Ltd.
+         * @license: Licensed under MIT and Preline UI Fair Use License (https://preline.co/docs/license.html)
+         * Copyright 2024 Preline Labs Ltd.
+         */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license lucide-react v0.427.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.19.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router DOM v6.26.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.26.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */

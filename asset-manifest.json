@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flyxdevs-portfolio/static/css/main.1d827c28.css",
+    "main.js": "/flyxdevs-portfolio/static/js/main.0eba83c4.js",
+    "index.html": "/flyxdevs-portfolio/index.html",
+    "main.1d827c28.css.map": "/flyxdevs-portfolio/static/css/main.1d827c28.css.map",
+    "main.0eba83c4.js.map": "/flyxdevs-portfolio/static/js/main.0eba83c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d827c28.css",
+    "static/js/main.0eba83c4.js"
+  ]
+}
