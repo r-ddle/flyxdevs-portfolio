@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/flyxdevs-portfolio/static/css/main.03d7c116.css",
-    "main.js": "/flyxdevs-portfolio/static/js/main.79d01871.js",
-    "index.html": "/flyxdevs-portfolio/index.html",
-    "main.03d7c116.css.map": "/flyxdevs-portfolio/static/css/main.03d7c116.css.map",
-    "main.79d01871.js.map": "/flyxdevs-portfolio/static/js/main.79d01871.js.map"
+    "main.css": "/static/css/main.03d7c116.css",
+    "main.js": "/static/js/main.79d01871.js",
+    "index.html": "/index.html",
+    "main.03d7c116.css.map": "/static/css/main.03d7c116.css.map",
+    "main.79d01871.js.map": "/static/js/main.79d01871.js.map"
   },
   "entrypoints": [
     "static/css/main.03d7c116.css",
