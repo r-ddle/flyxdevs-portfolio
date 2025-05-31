@@ -1,4 +1,4 @@
-import 'whatwg-fetch';
+// import 'whatwg-fetch';
 
 const users = ["G0J0-Satoru", "r-ddle"];
 let user = {};
