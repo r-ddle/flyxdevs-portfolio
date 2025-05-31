@@ -17,7 +17,7 @@ const ProjectCards = ({ projects }) => {
     };
 
     return (
-        <div className="relative bg-white shadow-2xl shadow-six rounded-xl max-w-[66rem] mx-auto h-[600px] overflow-hidden my-16">
+        <div className="relative bg-white shadow-2xl shadow-six rounded-xl max-w-[66rem] mx-auto h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px] overflow-hidden my-16">
             <AnimatePresence initial={false} custom={direction}>
                 <motion.div
                     key={currentIndex}

@@ -2,7 +2,7 @@ const Footer = () => {
     return(
         // Footer
         <footer className="relative overflow-hidden bg-nine">
-            <svg className="absolute -bottom-20 start-1/2 w-[1900px] transform -translate-x-1/2" width="2745" height="288" viewBox="0 0 2745 488" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="absolute -bottom-20 start-1/2 w-full max-w-[1900px] transform -translate-x-1/2 hidden sm:block" width="2745" height="288" viewBox="0 0 2745 488" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.5 330.864C232.505 403.801 853.749 527.683 1482.69 439.719C2111.63 351.756 2585.54 434.588 2743.87 487" className="stroke-neutral-700/50" stroke="currentColor"/>
             <path d="M0.5 308.873C232.505 381.81 853.749 505.692 1482.69 417.728C2111.63 329.765 2585.54 412.597 2743.87 465.009" className="stroke-neutral-700/50" stroke="currentColor"/>
             <path d="M0.5 286.882C232.505 359.819 853.749 483.701 1482.69 395.738C2111.63 307.774 2585.54 390.606 2743.87 443.018" className="stroke-neutral-700/50" stroke="currentColor"/>
