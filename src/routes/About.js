@@ -84,9 +84,11 @@ const About = () => {
         {/* Hero Section */}
         {/* The existing Hero props will be reviewed and updated in the next step */}
         <Hero
-          SpanTitle="Flyx Devs: " // Placeholder, will be updated
-          Title="Creating Beautiful, Smooth and Clean Applications." // Placeholder
-          paragraph="Your vision, our expertise. Let's build the future, together." // Placeholder
+          SpanTitle="Innovate. Create. Elevate." // Placeholder, will be updated
+          Title="Bespoke Digital Solutions for a Modern World" // Placeholder
+          paragraph="We partner with you to craft stunning websites, powerful applications, and engaging mobile experiences that drive results and set you apart." // Placeholder
+          ctaText="Explore Our Services"
+          ctaLink="/solutions"
         />
 
         {/* Key Service Categories Section - Placeholder */}

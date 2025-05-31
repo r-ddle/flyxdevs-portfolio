@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Button from '../components/Button';
+import { Link } from 'react-router-dom';
 
 // The Hero component will be used on the Homepage (About.js)
 // It should convey the main Value Proposition.
@@ -17,19 +19,11 @@ const Hero = ({ SpanTitle, Title, paragraph, ctaText, ctaLink }) => {
         </p>
         {ctaText && ctaLink && (
           <div className="mt-10">
-            {/* Using the Button component we created earlier. Assuming it will be imported where Hero is used, or Hero will import it.
-                For now, let's use direct styling and plan to replace with <Button> later if Hero becomes a shared component.
-                Or, better yet, let's assume Button can be imported if available.
-                For this subtask, to avoid import issues if Button.js isn't seen by the subtask,
-                I'll style it directly and add a comment.
-            */}
-            <a
-              href={ctaLink}
-              className="inline-block bg-primary-500 text-white font-medium text-base px-8 py-3 rounded-md hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50 focus:ring-offset-2 focus:ring-offset-neutral-100 dark:focus:ring-offset-neutral-900 transition-colors duration-150"
-              // TODO: Replace with <Button variant="primary" size="lg" href={ctaLink}>{ctaText}</Button> once Button component is globally available/imported.
-            >
-              {ctaText}
-            </a>
+            <Link to={ctaLink}>
+              <Button variant="primary" size="lg">
+                {ctaText}
+              </Button>
+            </Link>
           </div>
         )}
       </div>
