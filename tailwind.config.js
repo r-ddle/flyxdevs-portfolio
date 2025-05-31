@@ -3,119 +3,119 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "node_modules/preline/dist/*.js"],
   theme: {
     fontFamily: {
-      display: ["Satoshi"],
+      heading: ["Inter", "system-ui", "sans-serif"],
+      body: ["Inter", "system-ui", "sans-serif"],
+      mono: ["JetBrains Mono", "monospace"],
+    },
+    fontSize: {
+      xs: "0.75rem",    // 12px
+      sm: "0.875rem",   // 14px
+      base: "1rem",     // 16px
+      lg: "1.125rem",   // 18px
+      xl: "1.25rem",    // 20px
+      "2xl": "1.5rem",  // 24px
+      "3xl": "2rem",    // 32px
+      "4xl": "2.5rem",  // 40px
+    },
+    lineHeight: {
+      tight: "1.2",
+      base: "1.5",
+      loose: "1.7",
+    },
+    fontWeight: {
+      regular: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
     },
     colors: {
-      "one": {
-        DEFAULT: "#f8f9fa",
-        100: "#29323a",
-        200: "#536475",
-        300: "#8496a8",
-        400: "#bfc8d1",
-        500: "#f8f9fa",
-        600: "#fafbfc",
-        700: "#fbfcfc",
-        800: "#fdfdfd",
-        900: "#fefefe",
+      primary: {
+        100: "hsl(215, 100%, 98%)",
+        200: "hsl(215, 100%, 95%)",
+        500: "hsl(215, 90%, 50%)",
+        600: "hsl(215, 90%, 40%)",
+        700: "hsl(215, 90%, 30%)",
       },
-      "two": {
-        DEFAULT: "#e9ecef",
-        100: "#282f37",
-        200: "#505f6e",
-        300: "#7c8ea0",
-        400: "#b3bec8",
-        500: "#e9ecef",
-        600: "#eef1f3",
-        700: "#f3f4f6",
-        800: "#f7f8f9",
-        900: "#fbfbfc",
+      neutral: {
+        100: "hsl(0, 0%, 98%)",
+        200: "hsl(0, 0%, 93%)",
+        300: "hsl(0, 0%, 87%)",
+        500: "hsl(0, 0%, 60%)",
+        700: "hsl(0, 0%, 40%)",
+        900: "hsl(0, 0%, 20%)",
       },
-      "three": {
-        DEFAULT: "#dee2e6",
-        100: "#272d34",
-        200: "#4e5b67",
-        300: "#788899",
-        400: "#abb6c0",
-        500: "#dee2e6",
-        600: "#e5e9ec",
-        700: "#eceef1",
-        800: "#f2f4f5",
-        900: "#f9f9fa",
+      success: {
+        500: "hsl(150, 80%, 40%)",
       },
-      "four": {
-        DEFAULT: "#ced4da",
-        100: "#242a30",
-        200: "#495561",
-        300: "#6d7f91",
-        400: "#9da9b5",
-        500: "#ced4da",
-        600: "#d7dce1",
-        700: "#e1e5e9",
-        800: "#ebeef0",
-        900: "#f5f6f8",
+      warning: {
+        500: "hsl(45, 100%, 50%)",
       },
-      "five": {
-        DEFAULT: "#adb5bd",
-        100: "#202428",
-        200: "#404850",
-        300: "#616d79",
-        400: "#85919d",
-        500: "#adb5bd",
-        600: "#bdc4ca",
-        700: "#ced3d8",
-        800: "#dee1e5",
-        900: "#eff0f2",
+      error: {
+        500: "hsl(0, 80%, 50%)",
       },
-      "six": {
-        DEFAULT: "#6c757d",
-        100: "#161819",
-        200: "#2c2f32",
-        300: "#41474b",
-        400: "#575e64",
-        500: "#6c757d",
-        600: "#899199",
-        700: "#a7adb2",
-        800: "#c4c8cc",
-        900: "#e2e4e5",
+      info: {
+        500: "hsl(200, 80%, 50%)",
       },
-      "seven": {
-        DEFAULT: "#495057",
-        100: "#0e1011",
-        200: "#1d2022",
-        300: "#2b2f34",
-        400: "#3a3f45",
-        500: "#495057",
-        600: "#68727d",
-        700: "#8c959f",
-        800: "#b2b9bf",
-        900: "#d9dcdf",
-      },
-      "eight": {
-        DEFAULT: "#343a40",
-        100: "#0b0c0d",
-        200: "#15171a",
-        300: "#202327",
-        400: "#2a2f34",
-        500: "#343a40",
-        600: "#58626c",
-        700: "#7d8995",
-        800: "#a9b0b8",
-        900: "#d4d8dc",
-      },
-      "nine": {
-        DEFAULT: "#212529",
-        100: "#070808",
-        200: "#0e0f11",
-        300: "#141719",
-        400: "#1b1f22",
-        500: "#212529",
-        600: "#49525b",
-        700: "#6f7d8b",
-        800: "#9fa8b2",
-        900: "#cfd4d8",
-      },
+      // Added white and black for common use, though not explicitly in the palette as variables
+      white: "#ffffff",
+      black: "#000000",
+      transparent: "transparent",
     },
-    extend: {},
+    spacing: {
+      "1": "0.25rem",  // 4px
+      "2": "0.5rem",   // 8px
+      "3": "0.75rem",  // 12px
+      "4": "1rem",     // 16px
+      "6": "1.5rem",   // 24px
+      "8": "2rem",     // 32px
+      "12": "3rem",    // 48px
+      "16": "4rem",    // 64px
+      "px": "1px",
+      "0": "0",
+      "auto": "auto",
+    },
+    borderRadius: {
+      sm: "0.25rem",   // 4px
+      DEFAULT: "0.375rem", // 6px (mapped 'base' to DEFAULT)
+      lg: "0.5rem",    // 8px
+      xl: "1rem",      // 16px
+      full: "9999px", // Keep 'full' for rounded pills/buttons
+    },
+    boxShadow: {
+      sm: "0 1px 2px rgba(0, 0, 0, 0.05)",
+      DEFAULT: "0 1px 3px rgba(0, 0, 0, 0.1)", // mapped 'base' to DEFAULT
+      lg: "0 4px 6px rgba(0, 0, 0, 0.1)",
+      xl: "0 10px 15px rgba(0, 0, 0, 0.1)",
+      none: "none", // Keep 'none'
+    },
+    height: {
+      sm: "2rem",    // 32px
+      DEFAULT: "2.5rem", // 40px (mapped 'base' to DEFAULT)
+      lg: "3rem",    // 48px
+    },
+    screens: {
+      xs: "320px", // Mobile from design doc (added 'xs' for it)
+      sm: "640px",   // Small devices
+      md: "768px",   // Medium devices / Tablet
+      lg: "1024px",  // Large devices / Desktop
+      xl: "1280px",  // Extra large devices
+      "2xl": "1440px" // Wide from design doc (mapped to '2xl')
+    },
+    container: {
+      padding: "1rem", // Default padding from $spacing-4
+      center: true,    // Standard practice to center containers
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      }
+    },
+    extend: {
+      ringColor: { DEFAULT: 'hsl(215, 90%, 50%, 0.5)' },
+      ringWidth: { DEFAULT: '3px', '0': '0px', '1': '1px', '2': '2px', '4': '4px', '8': '8px' },
+    },
   },
-  plugins: [require("preline/plugin")],
+  plugins: [// require("preline/plugin")
+  ],
 };
